@@ -1,0 +1,155 @@
+	/*-----------------------general----------------*/
+html {
+
+	min-height: 100%;
+
+}
+
+
+body {
+
+	margin: auto;
+	color: #000000;
+}
+
+a {
+	
+	color: #ffffff;
+	text-decoration: none;
+}
+
+	/*----------------------MENU---------------------*/
+nav ul {
+
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	font-size: 1.3em;
+	margin-top: 0px;
+	margin-bottom: %;
+	padding-top: 1.2%;
+	padding-bottom: 1.2%;
+
+	border-bottom: 2px #f27316 outset;
+	background: #f27316;
+	box-shadow: 6px 6px 2px black;
+
+}
+
+nav li {
+	
+	margin: 0% 3% 0% 3%;
+}
+
+header img {
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+
+
+	/*------------------------page acceuil--------------*/
+#acceuil_body {
+
+	background: url("photo/intropic.jpg") no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+	/*---------------------page price------------------*/
+#price_body {
+
+	color: #ffffff;
+	background: url("photo/dark_square.jpg") no-repeat; 
+}
+
+.tabl_price {
+
+	background: rgba(0,0,0,0.7);
+	max-width: 35%;
+	margin-top: 8%;
+
+}
+
+#flex_price{
+
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.tabl_price h1 {
+
+	text-align: center;
+	background: #f27316;
+	margin: 0px 0px 0px 0px;
+}
+
+.tabl_price h2 {
+
+	text-align: center;
+
+}
+
+	/*-----------------------------page portfolio--------------*/
+#portfolio_body {
+
+	background: url("photo/papier-peint.jpg") repeat;
+	color: #ffffff;
+
+}
+
+.vignette {
+
+	max-height: 250px;
+	max-width: 250px;
+
+}
+
+#portfolio_body figcaption {
+
+	font-size: 1.3em;
+	text-align: center;
+}
+
+#portfolio_body figure a:hover{
+
+	color: #f27316;
+}
+
+#portfolio_body ul {
+
+	border-bottom: 2px #f27316 outset;
+	background: #f27316;
+	box-shadow: 6px 6px 2px black;
+}
+
+#portfolio_body li {
+
+}
+
+#gallerie_projet {
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+	/*------------------------page_contact--------------------*/
+#contact_body {
+
+	background: url("photo/faire_part.jpg") no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+
+#formulaire {
+
+	display: flex;
+	justify-content: center;
+	margin-top: 10%;
+	
+}

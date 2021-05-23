@@ -1,0 +1,40 @@
+.liste-conteneur {
+    display: flex;
+}
+
+.conteneur {
+    min-height: 300px;
+    width: 300px;
+    background-color: lightblue;
+    margin: 20px;
+    height: fit-content;
+}
+
+.contenu {
+    
+    background-color:mediumaquamarine;
+    margin: 20px;
+    width: 260px;
+}
+
+.element-cible {
+    opacity: 0.5;
+}
+
+.element-drag {
+    position: fixed;
+    pointer-events: none; /*enleve les evenements js sur cet element (over, click etc)*/
+    margin: 0;
+    box-shadow: 0px 0px 11px -3px #000000
+}
+
+.conteneur-child-on-drag {
+    pointer-events: none;
+}
+
+.contenu-ghost {
+    background-color: transparent;
+    border: dashed 5px grey;
+    box-sizing: border-box;
+    pointer-events: none;
+}

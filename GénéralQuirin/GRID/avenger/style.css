@@ -1,0 +1,43 @@
+.avenger{
+
+    text-align: center;
+    margin-top: 220px;
+
+
+}
+
+.av2{
+    position: relative;
+    top: 120px;
+    right: 220px;
+}
+.av3{
+    position: relative;
+    top: 70px;
+    right: 190px;
+    
+}
+
+.av4{
+    position: relative;
+    right: 220px;
+    bottom: 70px;
+}
+
+.av5{
+    position: relative;
+    right: 270px;
+    bottom: 120px;
+}
+
+.av6{
+    position: relative;
+    right: 360px;
+    top: 95px;
+}
+
+.av7{
+    position: relative;
+    right: 600px;
+    top: 190px;
+}

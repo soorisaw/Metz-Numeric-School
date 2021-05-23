@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="sympli.css">
+	<title>WebSmartSolution</title>
+</head>
+
+<body id="contact_body">
+
+	<header>
+
+		<nav>
+			<ul>
+				<li><a href="sympli.html"> Acceuil</a></li>
+				<li><a href="cie.html">L'entreprise</a></li>
+				<li><a href="price.html">Nos tarifs</a></li>
+				<li><a href="portfolio.html">Nos projet</a></li>	
+				<li><a href="contact.html">Nous contacter</a></li>			
+			</ul>
+		</nav>	
+
+		<p><img src="photo/logonav_mini.jpg"></p>
+
+	</header>
+
+	<div id="formulaire">
+		<form method="post" action="traitement.php">
+
+			<p>
+				<input type="text" name="nom" id="nom" placeholder="Nom" size="21" maxlength="20" />
+
+				<input type="text" name="prenom" id="prenom" placeholder="Prénom" size="21" maxlength="20" />
+			</p>
+			<p>
+				<input type="email" name="mail" id="mail" placeholder="E-mail" size="21">
+				<input type="tel" name="phone" id="phone" placeholder="n°de téléphone" size="21"> 
+			</p>
+			<p>
+				<textarea name="message" id="message" rows="20" cols="50"></textarea>
+			</p>
+			<p>
+				<input type="submit" value="Envoyer" />
+			</p>
+			
+		</form>
+	</div>
+
+	<script type="text/javascript" src="sympli.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+.starwars{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-areas:
+    "spot12 spot10 spot10 "
+    "spot9 spot8 spot7 "
+    "spot9 spot5 spot4"
+    "spot3 spot2 spot1";
+    width: 500px;
+    margin: auto;
+    
+
+}
+
+.starwars > .sw12{
+    grid-area: spot12;
+    width: 100%;
+}
+
+.starwars > .sw10{
+    grid-area: spot10;
+    width: 100%;
+}
+.starwars > .sw9{
+    grid-area: spot9;
+    width: 100%;
+}
+.starwars > .sw8{
+    grid-area: spot8;
+    width: 100%;
+}
+.starwars > .sw7{
+    grid-area: spot7;
+    width: 100%;
+}
+
+.starwars > .sw5{
+    grid-area: spot5;
+    width: 100%;
+}
+
+.starwars > .sw4{
+    grid-area: spot4;
+    width: 100%;
+}
+
+.starwars > .sw3{
+    grid-area: spot3;
+    width: 100%;
+}
+.starwars > .sw2{
+    grid-area: spot2;
+    width: 100%;
+}
+.starwars > .sw1{
+    grid-area: spot1;
+    width: 100%;
+}
+
+
+
+    
+    
+
+

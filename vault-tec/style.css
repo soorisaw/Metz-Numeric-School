@@ -1,0 +1,79 @@
+.navbar,.jumbotron,.jumbotron-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+	background: yellow;
+}
+
+body {
+	background: yellow;
+}
+
+
+.footer-index {
+
+	background: #325692;
+}
+
+.footer-about {
+
+	background: yellow;
+}
+
+.card-index__deck {
+	background: #325692;
+	margin: 80px auto;
+}
+.card-index__deck:hover {
+	color: white;
+}
+
+
+.card-index__btn {
+	background: yellow;
+	color: black;
+}
+
+.card-index__btn:hover {
+	border: 1px yellow outset;
+}
+
+.sign {
+	color : #325692 ;
+	background: yellow;
+	border: 1px solid outset;
+	border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.about-body {
+    background-color: #325692;
+}
+
+.about-header {
+    background-color: yellow;
+}
+
+.about-section {
+    background-color: #325692 ;
+    border: 1px yellow outset;
+}
+.about-section__title {
+    
+    background-color: yellow;
+}
+
+.footer-text {
+	color: black;
+}
